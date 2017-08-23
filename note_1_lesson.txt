@@ -1,0 +1,19 @@
+﻿Conceitos
+
+	Version control: ela se refere a qualquer sistema que permite o controle sistemático da versão do conteúdo. Ou seja, qualquer coisa que facilite criar, armazenar e acessar versões diferentes dos mesmos documentos, códigos, receitas ou qualquer conteúdo em que você esteja trabalhando. Ex: manual saving, dropbox, google docs, wikipedia, git, svn.
+
+	Git commit: etá diretamente relacionado ao controle de versão, ele se conecta ao sistema Git.
+
+
+--stat
+	Fornece estatísticas sobre quais arquivos foram alterados em cada commit.
+
+--global
+	Ele será aplicado a todos os projetos Git.
+
+git log --pretty=oneline
+	Mostra o log das alterações nos arquivos (mensagens de commit)
+
+git log --pretty="%h"
+	Mostra o começo dos IDs dos commits.
+
