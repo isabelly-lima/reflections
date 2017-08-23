@@ -1,0 +1,3 @@
+O que acontece ao iniciar um repositório? Por que você precisa fazer isso?
+
+	Uma mensagem de repositório é exibida e um arquivo .git é criado. Para criar um novo repositório e inserir seus commits, branches, etc.

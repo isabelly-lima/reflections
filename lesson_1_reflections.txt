@@ -1,0 +1,40 @@
+Como a visuialização de um diff entre duas versões de um arquivo ajuda você a ver um bug que foi introduzido?
+
+	Pois com o diff as diferenças aparecem com sinais de mais e de menos. Isso ajuda a identificar o que mudou no novo e no velho. Se torna mais intuitivo e mais fácil de ver na tela.
+
+
+
+Como ter fácil acesso a todo o histórico de um arquivo pode torná-lo um programador mais eficiente no longo prazo?
+
+	Pois se algum bug for introduzido, você poderá voltar e checar cada versão anterior até encontrar uma em que o bug não se encontra. Após isso é só usar o comando FC (se windows) ou DIFF (se mac ou linux) e ver as diferenças.
+
+
+
+Na sua opinião, quais são os prós e contras de escolher manualmente quando cria um commit, como ocorre no Git, v. o salvamento automático de versões, como no google docs?
+
+	Os prós são a escolha de salvar quando achar necessário, os commits são mais significativos e diminui a quantidade de commits.
+	Os contras são que o usuário pode esquecer de fazer os commits, fazer commits muito grandes ou muito pequenas ou fazer commits muito espaçados.
+
+
+
+Por que você acha que alguns sistemas de controle de versão, como Git, permitem salvar vários arquivos em um commit, enquanto outros, como o Google Docs, tratam cada arquivo separadamente?
+
+	Pois o Git visa diminuir o número de commits, então é muito melhor para ele fazer o commit de vários arquivos de uma vez do que fazer o commit de cada arquivo separadamente. Também fica melhor para a comparação de mudanças de um commit para outro.
+
+
+
+Como usar os comandos git log e git diff para visualizar o histórico dos arquivos?
+
+	O git log mostra todos as versões disponíveis do arquivo. Ele é usado abrindo o Git Bach na página que deseja e inserindo o comando "git log". O git diff mostra as diferenças de uma versão para a outra comparando seus IDs. Para utilizá-lo colocamos o comando "git diff", damos um espaço e colocamos o ID de uma das versões, damos outro espaço e colocamos o ID da outra versão que queremos comparar.
+
+
+
+De que modo o controle de versão pode dar a você mais segurança para fazer alterações que podem danificar algo?
+
+	Pois você sempre tem a "garantia", que seria o arquivo que não possui as alterações que você ou outra pessoa introduziu. Se essas alterações possuírem algum bug ou for uma alteração mal feita, você pode simplesmente voltar para a versão anterior.
+
+
+
+Agora que você configurou a área de trabalho, você quer usar o Git pra quê?
+
+	Para organizar e obter controle de versões nos meus projetos.
