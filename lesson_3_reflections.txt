@@ -14,3 +14,16 @@ Descreva as diferenças entre bifurcações, clones e branches. Quando você usa
 	Branches são bons quando se quer testar novas funcionalidades ou alternativas em um projeto sem alterar seu "núcleo". 
 	Clone é ótimo quando se quer ver a estrutura de uma alteração ou ver todos os branches de um projeto.
 	Já o fork é bom em situações em que você quer clonar um repositório e mesmo assim fazer referência a ele em seu github, além de não precisar do intermédio do seu computador para ter acesso aos arquivos do repositório bifurcado.
+
+
+Qual é o benefício de ter uma cópia do último estado conhecido do remoto armazenado localmente?
+	Pois se houver alguma modificação no remoto você ainda terá uma cópia no seu dispositivo ou você pode inserir novos branches para testar novas funcionalidades a partir dessa cópia.
+
+
+Como você colaboraria sem usar git ou github? O que seria mais fácil e mais difícil?
+	Compartilharia arquivos por google drive, pendrives ou mídias sociais. Com github seria mais fácil pois os conflitos que ocorressem poderiam ser observados e corrigidos, enquanto que sem ele conflitos apareciriam em excesso.
+
+
+
+Quando você gostaria de fazer alterações em um branch separado, e não diretamente no master? QUais são os benefícios de cada abordagem?
+	Quando quisesse introduzir novas funcionalidades no projeto. Permite que eu tenha a opção de regredir e não inserir bugs no projeto sempre que der um commit.
