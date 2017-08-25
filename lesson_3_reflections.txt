@@ -1,1 +1,16 @@
 Quando você iria querer criar um repositório remoto invés de manter todo seu projeto local?
+	Quando o projeto fosse executado por mais de uma pessoa.
+
+
+Por que você prefere efetuar pull de alterações manualmente do que deixar o Git atualizar-se automaticamente com seu repositório remoto?
+	Porque se fosse automaticamente, alguns commits poderiam não fazer sentido e poderiam ser em excesso.
+
+
+Descreva as diferenças entre bifurcações, clones e branches. Quando você usaria um e não o outro?
+	Bifurção é um tipo de clone mas que não passa pelo seu computador localmente. Ela é feita diretamente no github.
+	Clone é uma cópia local de um repositório remoto.
+	Branches são "caminhos alternativos" que um repositório pode tomar.
+
+	Branches são bons quando se quer testar novas funcionalidades ou alternativas em um projeto sem alterar seu "núcleo". 
+	Clone é ótimo quando se quer ver a estrutura de uma alteração ou ver todos os branches de um projeto.
+	Já o fork é bom em situações em que você quer clonar um repositório e mesmo assim fazer referência a ele em seu github, além de não precisar do intermédio do seu computador para ter acesso aos arquivos do repositório bifurcado.
