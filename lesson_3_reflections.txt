@@ -1,0 +1,1 @@
+Quando você iria querer criar um repositório remoto invés de manter todo seu projeto local?
